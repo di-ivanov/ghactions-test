@@ -14,3 +14,4 @@ jobs:
       - name: Check composer version
         run: >
           composer --version
+          ls -la
