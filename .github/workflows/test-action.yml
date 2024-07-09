@@ -14,5 +14,6 @@ jobs:
       - name: Check composer version
         run: |
           composer --version
+          touch test
           ls -la
           pwd
