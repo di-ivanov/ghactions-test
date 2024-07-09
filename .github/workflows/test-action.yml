@@ -6,6 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: diivanov/php:8.3-cli
+      options: --user root
 
     steps:
       - name: Checkout code
